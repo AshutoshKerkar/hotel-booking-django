@@ -14,25 +14,21 @@ The "Hotel Booking Logic Django" project is a web-based room reservation system.
 
 💼 Admin Controls: Admins can add and manage rooms, review reservations, and monitor user activity.
 
-installation
+
+Installation:
 To run this project locally for development purposes, follow these steps:
+1.Clone the repository to your local machine:
 
-Clone the repository to your local machine:
+2.Navigate to the project directory:
+ cd hotel-booking-django
+3.Install the required Python packages:
+ pip install -r requirements.txt
+4.Apply database migrations:
+ python manage.py migrate
+5.Create a superuser for the Django admin portal:
+ python manage.py createsuperuser
+6.Start the development server:
+ python manage.py runserver
+7.Customize room data, manage reservations, and explore the functionality of the room booking system.
 
-git clone https://github.com/rajatrawal/hotel-booking-logic-django.git
-Navigate to the project directory:
 
-cd hotel-booking-logic-django
-Install the required Python packages:
-
-pip install -r requirements.txt
-Apply database migrations:
-
-python manage.py migrate
-Create a superuser for the Django admin portal:
-
-python manage.py createsuperuser
-Start the development server:
-
-python manage.py runserver
-Access the admin portal at 127.0.01:8000/admin and log in using the superuser credentials 
